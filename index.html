@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b444cc1f15a45f68a5eb6b83886f258 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5b444cc1f15a45f68a5eb6b83886f258" ></div>
+        
+</body>
+<script>    
+    
+            var map_5b444cc1f15a45f68a5eb6b83886f258 = L.map(
+                "map_5b444cc1f15a45f68a5eb6b83886f258",
+                {
+                    center: [55.9288425, 37.8951153],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9a720e4a4d584a7eb6958f03d272883f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+            var circle_a22e1f8b5d124865b1d80d4de6e1e9f2 = L.circle(
+                [55.92836543929651, 37.89361258354386],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+        var popup_0ff6ebdc1d56446aa875a2ca5a334640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab41f6d890ad4502a8c415209cd0c1e2 = $(`<div id="html_ab41f6d890ad4502a8c415209cd0c1e2" style="width: 100.0%; height: 100.0%;">г. Королев мкр. Болшево Халтурина 16 </div>`)[0];
+            popup_0ff6ebdc1d56446aa875a2ca5a334640.setContent(html_ab41f6d890ad4502a8c415209cd0c1e2);
+        
+
+        circle_a22e1f8b5d124865b1d80d4de6e1e9f2.bindPopup(popup_0ff6ebdc1d56446aa875a2ca5a334640)
+        ;
+
+        
+    
+    
+            var circle_37bca5d012f64544be824b589adefd61 = L.circle(
+                [55.92832862432842, 37.894015585481725],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+        var popup_982e786a96d941bbb89f2108cf3a04de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8677bbee1904f4a9f5c253c6d879a69 = $(`<div id="html_c8677bbee1904f4a9f5c253c6d879a69" style="width: 100.0%; height: 100.0%;">г. Королев мкр. Болшево Халтурина 18 </div>`)[0];
+            popup_982e786a96d941bbb89f2108cf3a04de.setContent(html_c8677bbee1904f4a9f5c253c6d879a69);
+        
+
+        circle_37bca5d012f64544be824b589adefd61.bindPopup(popup_982e786a96d941bbb89f2108cf3a04de)
+        ;
+
+        
+    
+    
+            var circle_e932608632914933a5a356358ba380ad = L.circle(
+                [55.928295565956844, 37.89427307755576],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+        var popup_8bbeafc4818b4415acf634729e4ac742 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb6ec24b690c4e8fb498d56625ff0143 = $(`<div id="html_eb6ec24b690c4e8fb498d56625ff0143" style="width: 100.0%; height: 100.0%;">г. Королев мкр. Болшево Халтурина 20 </div>`)[0];
+            popup_8bbeafc4818b4415acf634729e4ac742.setContent(html_eb6ec24b690c4e8fb498d56625ff0143);
+        
+
+        circle_e932608632914933a5a356358ba380ad.bindPopup(popup_8bbeafc4818b4415acf634729e4ac742)
+        ;
+
+        
+    
+    
+            var circle_af09d99227a245a78073b821256c1c37 = L.circle(
+                [55.92828955534078, 37.89471295984888],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+        var popup_9b6745f10336426e971a2c3adf84b938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dec45cfeb7914b7d97af41b5aac6a39c = $(`<div id="html_dec45cfeb7914b7d97af41b5aac6a39c" style="width: 100.0%; height: 100.0%;">г. Королев мкр. Болшево Халтурина 22 </div>`)[0];
+            popup_9b6745f10336426e971a2c3adf84b938.setContent(html_dec45cfeb7914b7d97af41b5aac6a39c);
+        
+
+        circle_af09d99227a245a78073b821256c1c37.bindPopup(popup_9b6745f10336426e971a2c3adf84b938)
+        ;
+
+        
+    
+    
+            var circle_ddbfcf150a984f53927760ab36679cb0 = L.circle(
+                [55.928323365040775, 37.89522727338997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_5b444cc1f15a45f68a5eb6b83886f258);
+        
+    
+        var popup_04af8293f2bf410880789f22d03e6f7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c48f177f6454dc08e67f6758f39543d = $(`<div id="html_8c48f177f6454dc08e67f6758f39543d" style="width: 100.0%; height: 100.0%;">г. Королев мкр. Болшево Халтурина 24 достигнута договоренность</div>`)[0];
+            popup_04af8293f2bf410880789f22d03e6f7a.setContent(html_8c48f177f6454dc08e67f6758f39543d);
+        
+
+        circle_ddbfcf150a984f53927760ab36679cb0.bindPopup(popup_04af8293f2bf410880789f22d03e6f7a)
+        ;
+
+        
+    
+</script>
